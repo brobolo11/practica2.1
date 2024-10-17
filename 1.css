@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: rgb(243, 232, 172);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-left: -2.5%;
+}
+.login{
+    font-size: 15px;
+    background-color: white;
+    border-radius: 15px;
+    width: 40%;
+    margin-left: 24%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.pContenido{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.nombre, .contra{
+    padding: 5%;
+    width: 400px;
+    background-color: rgb(250, 242, 199);
+    border-radius: 10px;
+    margin-left: -8%;
+}
+.contra{
+    margin-top: 5%;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    padding: 1%;
+    margin-left: -5%;
+}
+.boton button{
+    background-color: rgb(250, 242, 199);
+    border-radius: 5px;
+}
+.boton a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.contenido a{
+    color: black;
+    background-color: rgb(250, 242, 199);
+}
+.nuevo, .borrar, .listar, .modificar, .salir{
+    transition: transform 0.2s;
+}
+.nuevo:hover, .borrar:hover, .listar:hover, .modificar:hover, .salir:hover{
+    transform: scale(1.1);
+}
+.contenedor{
+    font-size: 15px;
+    background-color: white;
+    border-radius: 25px;
+    width: 40%;
+    margin-left: 24%;
+    margin-top: 3.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.contenido p{
+    background-color: rgb(250, 242, 199);
+}
+.contenido p, a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 100%;
+}
+.nombreNuevo, .dniNuevo, .apellidoNuevo1, .apellidoNuevo2, .direccionNueva, .tlfNuevo, .fnacNueva{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    background-color: rgb(250, 242, 199);
+    padding: 15%;
+    border-radius: 15px;
+}
+.nombreNuevo, .dniNuevo, .apellidoNuevo1, .apellidoNuevo2, .direccionNueva, .tlfNuevo, .fnacNueva{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    background-color: rgb(250, 242, 199);
+    padding: 15%;
+    border-radius: 15px;
+}
+
+.contenido input{
+    width: 200%;
+    margin-left: -60%;
+}
+.usuarios p{
+    font-size: 15px;
+}
+.usuario1{
+    display: flex;
+    margin-top: 20%;
+    margin-left: 15%;
+    background-color: rgb(250, 242, 199);
+    padding: 5%;
+    border-radius: 15px;
+}
